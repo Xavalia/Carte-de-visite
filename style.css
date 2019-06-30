@@ -1,0 +1,32 @@
+html {
+	font-family: 'Bitter', serif;
+  height:100%;
+  background-color :white;
+  background-size:100% auto;
+}
+body {
+  height: 80mm;
+  width: 140mm;
+  background:
+    linear-gradient(
+    170deg,
+    transparent 45%, rgb(229,131,14) 55%
+  )
+  ;
+  margin:0;
+    background-size:100% auto;
+}
+      
+#container {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+
+}
+.titre {
+	 display:flex;
+	flex-direction:row;
+	justify-content: flex-end;
+	margin-top: -18mm;
+}
